@@ -6,8 +6,8 @@
 
 body{
     font-family: "Barlow", sans-serif; 
-    object-fit: fill;
 }
+
 
 nav{
     background-color : #F44336;
@@ -20,10 +20,17 @@ nav{
     position: fixed;
 }
 
-img{
+.makananmejabesar img{
+    width: 100vw;
     height: 100vh;
-    width: 100%;
+    background-color: #000000;
+}
+
+img{
+    height: 280px;
+    width : 280px;
     object-fit: cover;
+    
 }
 
 .tengah {
@@ -45,17 +52,30 @@ img{
     
 }
 
+
+
 .food{
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
+    padding: 0px 0px 30px 0px;
+}
+
+.food h1{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.food h3{
+    font-size: 15px;
+    padding : 0px 15px;
 }
 
 .salad {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 280px;
-    height:280px;
+    flex:1;
 
 }
 
@@ -63,18 +83,22 @@ img{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 280px;
-    height:280px;
+    flex:1;
+}
 
+.list{
+    padding: 5px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .wine {
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 280px;
-    width: 280px;
-    object-fit: contain ;
+    flex: 1;
 
 }
 
@@ -82,7 +106,5 @@ img{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 280px;
-    height:280px;
-
+    flex: 1;
 }
