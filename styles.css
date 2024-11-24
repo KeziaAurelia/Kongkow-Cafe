@@ -26,13 +26,6 @@ nav{
     background-color: #000000;
 }
 
-img{
-    height: 280px;
-    width : 280px;
-    object-fit: cover;
-    
-}
-
 .tengah {
     text-align : center;
     padding : 16px;
@@ -59,6 +52,14 @@ img{
     justify-content: space-between;
     gap: 2rem;
     padding: 0px 0px 30px 0px;
+}
+
+
+img{
+    height: 40vh;
+    width : 23vw;
+    object-fit: cover;
+    
 }
 
 .food h1{
