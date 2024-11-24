@@ -50,13 +50,13 @@ nav{
 .food{
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 0px 0px 30px 0px;
 }
 
 
 img{
-    height: 40vh;
+    height: 50vh;
     width : 23vw;
     object-fit: cover;
     
