@@ -1,19 +1,23 @@
 *{
     font-weight: 400;
+    margin: 0px;
+    padding:0px;
 }
 
 body{
     font-family: "Barlow", sans-serif; 
-    
+    object-fit: fill;
 }
 
 nav{
     background-color : #F44336;
     color: #ffffff;
     text-align : center;
-    padding: 10px;
-    font-size: 22px;
+    width: 100vw;
+    padding: 15px;
+    font-size: 15px;
     line-height: 28px;
+    position: fixed;
 }
 
 img{
@@ -39,4 +43,46 @@ img{
     line-height: 28px;
     margin: 10px;
     
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+}
+
+.salad {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height:280px;
+
+}
+
+.pizza {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height:280px;
+
+}
+
+.wine {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 280px;
+    object-fit: contain ;
+
+}
+
+.coffee {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height:280px;
+
 }
